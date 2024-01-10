@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4719131-861d-421d-97ae-a13e6b76aafa" name="Changes" comment="" />
+    <list default="true" id="c4719131-861d-421d-97ae-a13e6b76aafa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openai-java/src/main/java/br/com/alura/ecommerce/ContadorDeTokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openai-java/src/main/java/br/com/alura/ecommerce/IdentificadorDePerfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-java/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/openai-java/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openai-java/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2afkgduy38Ig2Be1OWOrwWTEfRV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,10 +45,87 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/conta/OneDrive/Documentos/Projetos/ALURA/GPTAndJava/IntegrandoSpringComOpenAI"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\conta\OneDrive\Documentos\Projetos\ALURA\GPTAndJava\IntegrandoSpringComOpenAI\openai-java\src\main\resources" />
+      <recent name="C:\Users\conta\OneDrive\Documentos\Projetos\ALURA\GPTAndJava\IntegrandoSpringComOpenAI\openai-java\src\main\java\br\com\alura\ecommerce" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IdentificadorDePerfil">
+    <configuration name="CategorizadorDeProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="OPENAI_API_KEY" value="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" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.CategorizadorDeProdutos" />
+      <module name="openai-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContadorDeTokens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.ContadorDeTokens" />
+      <module name="openai-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdentificadorDePerfil" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="OPENAI_API_KEY" value="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" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.IdentificadorDePerfil" />
+      <module name="openai-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaIntegracao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="OPENAI_API_KEY" value="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" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.TestaIntegracao" />
+      <module name="openai-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ContadorDeTokens" />
+        <item itemvalue="Application.CategorizadorDeProdutos" />
+        <item itemvalue="Application.TestaIntegracao" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
